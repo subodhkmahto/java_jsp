@@ -28,18 +28,7 @@
                         <span class="text-white ms-1">Academic Institution.</span>
                     </p>
 
-                    <!-- HERE'S HOW YOU KNOW -->
-                    <div class="bg-secondary bg-opacity-20 rounded px-2 py-1">
-                        <p class="text-white mb-0 d-flex align-items-center gap-2"
-                           role="button"
-                           data-bs-toggle="collapse"
-                           data-bs-target="#securityInfo"
-                           aria-expanded="false"
-                           style="cursor:pointer; font-size:11px; letter-spacing:0.3px;">
-                            Here's how you know
-                            <i class="bi bi-chevron-down" id="securityIcon"></i>
-                        </p>
-                    </div>
+              
                 </div>
 
                 <!-- RIGHT: Font Size Controls -->
@@ -47,70 +36,6 @@
                     <a href="#" class="fw-bold text-white pe-2" id="btn-decrease" style="font-size:9px">A-</a>
                     <a href="#" class="fw-bold text-white pe-2" id="btn-orig"    style="font-size:12px">A</a>
                     <a href="#" class="fw-bold text-white"      id="btn-increase" style="font-size:14px">A+</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- COLLAPSE: Security Info -->
-        <div class="collapse" id="securityInfo">
-            <div class="py-3">
-                <div class="d-flex gap-4 flex-wrap">
-
-                    <!-- Item 1 -->
-                    <div class="d-flex gap-3 align-items-start">
-                        <div class="bg-secondary bg-opacity-25 rounded-circle p-2">
-                            <i class="bi bi-bank text-white"></i>
-                        </div>
-                        <div>
-                            <div class="text-white fw-semibold" style="font-size:12px;">
-                                Official Academic Domains
-                                <span class="text-warning">– .ac.in or .edu.in</span>
-                            </div>
-                            <div class="text-muted" style="font-size:11px;">
-                                Academic institution websites in India usually use
-                                <span class="text-white">.ac.in</span> or
-                                <span class="text-white">.edu.in</span> domains.
-                                Always check the URL before sharing sensitive information.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 2 -->
-                    <div class="d-flex gap-3 align-items-start">
-                        <div class="bg-primary bg-opacity-25 rounded-circle p-2">
-                            <span class="text-white fw-bold">S</span>
-                        </div>
-                        <div>
-                            <div class="text-white fw-semibold" style="font-size:12px;">
-                                Admission Portals for HEIs
-                                <span class="text-warning">– on JAVA</span>
-                            </div>
-                            <div class="text-muted" style="font-size:11px;">
-                                Portals follow the domain:
-                                <span class="text-white">{institute_code}.JAVA.ac.in</span> or
-                                <span class="text-white">{institute_code}.JAVA.edu.in</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Item 3 -->
-                    <div class="d-flex gap-3 align-items-start">
-                        <div class="bg-secondary bg-opacity-25 rounded-circle p-2">
-                            <i class="bi bi-lock-fill text-white"></i>
-                        </div>
-                        <div>
-                            <div class="text-white fw-semibold" style="font-size:12px;">
-                                Secure Connection
-                                <span class="text-warning">– uses SSL (https)</span>
-                            </div>
-                            <div class="text-muted" style="font-size:11px;">
-                                The <span class="text-white">🔒 lock icon</span> or
-                                <span class="text-white">HTTPS</span> in the address bar
-                                indicates an encrypted, secure connection.
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
